@@ -1,2 +1,2 @@
-# game-grid-app
-A react application for discovering video games 
+# list-group-react-component 
+A react component that displays a group of bootstrap list items
