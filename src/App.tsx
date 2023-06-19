@@ -1,6 +1,10 @@
-import ListGroup from "./components/ListGroup";
+//import ListGroup from "./components/ListGroup";
+import Alert from "./components/Alert";
 
 function App() {
+  /*
+  //code for the ListGroup Component
+
   let items = ["New York", "San Francisco", "Tokyo", "London", "Paris"];
 
   const handleSelectItem = (item: string) => {
@@ -15,7 +19,11 @@ function App() {
         onSelectItem={handleSelectItem}
       />
     </div>
-  );
+  );*/
+
+  //Code for Alert Component
+  return <div><Alert>Hello <span>World</span> </Alert></div>
+
 }
 
 export default App;
