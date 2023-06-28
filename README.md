@@ -9,7 +9,7 @@ A react component that displays a group of bootstrap list items and other relate
    ```
 2. Navigate to the repo
    ```bash
-   cd list-group-react-component.git
+   cd list-group-react-component
 
    ```
 3. Install modules
