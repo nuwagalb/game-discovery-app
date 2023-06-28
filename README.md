@@ -1,5 +1,5 @@
 # list-group-react-component 
-A react component that displays a group of bootstrap list items and other related components
+React components to display a group of bootstrap list items and a bootstrap alert item
 
 # Usage
 1. Clone Repo
