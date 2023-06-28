@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.flex-item {
+  margin: 0 10px;
+}
+
+.display-area {
+    margin-bottom: 10rem;
+    color: red;
+}

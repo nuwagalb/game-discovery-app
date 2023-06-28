@@ -3,6 +3,11 @@
 //(typescript) type annotation: define the type of a given property
 //(typescript) interface defines the shape of an object
 //using props, we can pass data to our components
+//useState hook: hooks give us access to React features within our components
+//useState(): accepts a variable and returns an array with that variable as well as
+//            a function to handle that variable and set it to the new state of the
+//            component
+//Each component has it's own state
 
 /**
  *             Props               vs     State
@@ -18,17 +23,12 @@ interface Props {
     items: string[];
     heading: string;
     //(item: string) => void: this property is a function that takes in
-    //                        an item of type string and returs void
+    //                        an item of type string and returns void
     onSelectItem: (item: string) => void;
 }
 
 //we will pass our component a parameter that is of type props
 function ListGroup({items, heading, onSelectItem}: Props) {
-  //useState hook: hooks give us access to React features within our components
-  //useState(): accepts a variable and returns an array with that variable as well as
-  //            a function to handle that variable and set it to the new state of the
-  //            component
-  //Each component has it's own state
   const [selectedIndex, setSelectedIndex] = useState(-1);
 
   return (
