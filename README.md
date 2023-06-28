@@ -7,12 +7,17 @@ A react component that displays a group of bootstrap list items and other relate
    git clone https://github.com/nuwagalb/list-group-react-component.git
 
    ```
-2. Install modules
+2. Navigate to the repo
+   ```bash
+   cd list-group-react-component.git
+
+   ```
+3. Install modules
    ```bash
    npm install
 
    ```
-3. Run app
+4. Run app
    ```bash
    npm run dev
 
