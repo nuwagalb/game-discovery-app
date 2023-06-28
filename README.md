@@ -22,4 +22,6 @@ React components to display a group of bootstrap list items and a bootstrap aler
    npm run dev
 
    ```
+5. Open http://localhost:5173/ in your browser to test out the components
+
 
